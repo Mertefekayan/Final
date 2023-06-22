@@ -87,9 +87,9 @@ I believe that this data could be used by coaches and players to improve their p
 
 ```{r echo=FALSE}
 library(tidyverse)
-soccer <- read_csv("C:\\Users\\merte\\OneDrive\\Masaüstü\\Final\\Final\\data\\soccer.csv")
-subset_data <- read_csv("C:\\Users\\merte\\OneDrive\\Masaüstü\\Final\\Final\\data\\subset_data.csv")
-setsub_data <- read_csv("C:\\Users\\merte\\OneDrive\\Masaüstü\\Final\\Final\\data\\setsub_data.csv")
+soccer <- read_csv(".\\Final\\data\\soccer.csv")
+subset_data <- read_csv(".\\Final\\data\\subset_data.csv")
+setsub_data <- read_csv(".\\Final\\data\\setsub_data.csv")
 ```
 
 ```{r echo=FALSE, results='asis'}
